@@ -2,13 +2,14 @@
 int main()
 {
     char choice;
-    int i,A[i],n,j,k,low,high,mid;
+    int i,n,j,k,low,high,mid;
     printf("A.Linear search");
     printf("\nB.Binary search\n");
     printf("choose one from above:\n");
     scanf("%c",&choice);
     printf("Enter number of elements in array:\n");
     scanf("%d",&n);
+    int A[n];
     printf("Array elements are:\n");
     for(i=0;i<n;i++)
     {
